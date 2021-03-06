@@ -1,19 +1,7 @@
-import "./imported.ts";
-
-const handler = (e: Event): void => {
-  console.log(`got ${e.type} event in event handler (main)`);
-};
-
-window.addEventListener("load", handler);
-
-window.addEventListener("unload", handler);
-
-window.onload = (e: Event): void => {
-  console.log(`got ${e.type} event in onload function (main)`);
-};
-
-window.onunload = (e: Event): void => {
-  console.log(`got ${e.type} event in onunload function (main)`);
-};
-
-console.log("log from main script");
+const worker = new Worker(new URL("./worker.js", import.meta.url).href, {
+  type: "module",
+  deno: {
+    namespace: true,
+  },
+});
+worker.postMessage({ filename: "./log.txt" });
