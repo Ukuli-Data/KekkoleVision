@@ -1,0 +1,11 @@
+Model Information:
+* title:	Mesh Base Woman
+* source:	https://sketchfab.com/3d-models/mesh-base-woman-dd1769f1f3444389ac32b62c2a68b4b5
+* author:	Erico Detoffol (https://sketchfab.com/erico.dtf)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Mesh Base Woman" (https://sketchfab.com/3d-models/mesh-base-woman-dd1769f1f3444389ac32b62c2a68b4b5) by Erico Detoffol (https://sketchfab.com/erico.dtf) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
